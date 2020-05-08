@@ -16,8 +16,35 @@ const questions = [
     },
     {
         type: "input",
+        name: "installation",
+        message: "Enter the prompt users should use for installation:",
+        default: "npm i"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Describe how the program will be used:"
+    },
+    {
+        type: "list",
         name: "license",
-        message: "What kind of license should your project have?"
+        message: "What kind of license should your project have?",
+        choices: [ 
+            "APACHE2.0",
+            "MIT",
+            "ppl1.3c,ofl"
+        ]
+    },
+    // {
+    //     type: "input", 
+    //     name: "contributing", 
+    //     message: ""
+    // },
+    {
+        type: "input", 
+        name: "tests", 
+        message: "Specify command needed for tests to be run:",
+        default: "npm test"
     },
     {
         type: "input",
@@ -26,24 +53,10 @@ const questions = [
     },
     {
         type: "input",
-        name: "installation",
-        message: "Enter the prompt users should use for installation:"
-    },
-    {
-        type: "input",
-        name: "usage",
-        message: "Describe how the program will be used:"
-    },
-    {
-        type: "input",
         name: "contact",
         message: "Enter your GitHub username and email, separated by a comma:"
     },
-    // {
-    //     type: "input",
-    //     name: "email",
-    //     message: "What is your email address?"
-    // },
+
 ];
 
 function writeToFile(fileName, data) {

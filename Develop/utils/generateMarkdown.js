@@ -2,7 +2,7 @@ const index = require("../index.js")
 
 function generateMarkdown(data, questions) {
   return `
-  ![NPM](https://img.shields.io/npm/l/${data.license}?style=plastic)
+  ![NPM](https://img.shields.io/badge/l/${data.license}?style=plastic)
 
 # ${data.title}
 
@@ -21,7 +21,7 @@ ${listQuestionNames(questions).join("\n").toUpperCase()}
 ## Installation: 
 ### Use the following instruction to install: 
 
-${data.installation}
+\`\`\`${data.installation}\`\`\`
 
 
 ## Usage: 
@@ -37,12 +37,6 @@ ${data.license}
 
 ## Contributing: 
 
-
-
-## Installation: 
-Use the following instruction to install: 
-
-${data.installation}
 
 
 ### Questions? Contact:

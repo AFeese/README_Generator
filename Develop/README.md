@@ -1,53 +1,47 @@
 
-  ![NPM](https://img.shields.io/npm/l/inquirer?style=plastic)
+  ![NPM](https://img.shields.io/npm/l/node?style=plastic)
 
-# Markdown Generator
+# New Project
 
 ## Version:
 1.0.0
 
 
-## Description of Markdown Generator:
-Generates a unique README according to your input
+## Description of New Project:
+Here is the description
 
 
 ## Table of Contents:
-* TITLE
-* DESCRIPTION
-* LICENSE
-* VERSION
-* INSTALLATION
-* USAGE
-* CONTACT
+* #TITLE
+* #DESCRIPTION
+* #LICENSE
+* #VERSION
+* #INSTALLATION
+* #USAGE
+* #CONTACT
 
 
 ## Installation: 
 ### Use the following instruction to install: 
 
-node index.js
+```npm install```
 
 
-##Usage: 
-For making READMEs
+## Usage: 
+for use of the project
 
 
 ## License: 
-inquirer
+node
 
 
-##Tests: 
+## Tests: 
 
 
 ## Contributing: 
 
 
 
-## Installation: 
-Use the following instruction to install: 
-
-node index.js
-
-
 ### Questions? Contact:
-Afeese, afrye13@icloud.com
+afeese, afrye13@icloud.com
 
