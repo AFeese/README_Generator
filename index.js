@@ -11,6 +11,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "version",
+        message: "What version is your project?"
+    },
+    {
+        type: "input",
         name: "description",
         message: "Please enter a description of your project"
     },
@@ -28,28 +33,23 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "What kind of license should your project have?",
+        message: "What kind of license package should your project have?",
         choices: [ 
-            "APACHE2.0",
-            "MIT",
-            "ppl1.3c,ofl"
+            "Apache%202.0",
+            "BSD%203",
+            "MIT"
         ]
     },
-    // {
-    //     type: "input", 
-    //     name: "contributing", 
-    //     message: ""
-    // },
+    {
+        type: "input", 
+        name: "contributing", 
+        message: "Enter the usernames of those who are contributing, separated by commas: "
+    },
     {
         type: "input", 
         name: "tests", 
         message: "Specify command needed for tests to be run:",
         default: "npm test"
-    },
-    {
-        type: "input",
-        name: "version",
-        message: "What version is your project?"
     },
     {
         type: "input",

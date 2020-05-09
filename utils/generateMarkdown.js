@@ -2,7 +2,7 @@ const index = require("../index.js")
 
 function generateMarkdown(data, questions) {
   return `
-  ![NPM](https://img.shields.io/badge/l/${data.license}?style=plastic)
+  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg?style=plastic)
 
 # ${data.title}
 
@@ -10,12 +10,18 @@ function generateMarkdown(data, questions) {
 ${data.version}
 
 
+
+
 ## Description of ${data.title}:
 ${data.description}
 
 
+
+
 ## Table of Contents:
 ${listQuestionNames(questions).join("\n").toUpperCase()}
+
+
 
 
 ## Installation: 
@@ -24,18 +30,30 @@ ${listQuestionNames(questions).join("\n").toUpperCase()}
 \`\`\`${data.installation}\`\`\`
 
 
+
+
 ## Usage: 
 ${data.usage}
 
 
+
+
 ## License: 
-${data.license}
+![License](https://img.shields.io/badge/License-${data.license}-blue.svg?style=plastic)
 
 
-## Tests: 
 
 
 ## Contributing: 
+${data.contributing}
+
+
+
+
+
+## Tests: 
+\`\`\`${data.tests}\`\`\`
+
 
 
 
