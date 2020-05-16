@@ -10,7 +10,7 @@
 
 
 ## Description of Ashley's README Generator:
-Week 9 Homework: README Generator. Uniquely generates a README according to user's input, including a table of contents, badge, and contact info. 
+Uniquely generates a README according to user's input, including a table of contents, badge, and contact info. 
 
 
 
@@ -50,14 +50,14 @@ Use the README generator according to your preference to generate a README for y
 
 
 ## Contributing: 
-AFeese, just me
+AFeese
 
 
 
 
 
 ## Tests: 
-```npm test```
+```no tests at this time```
 
 
 
