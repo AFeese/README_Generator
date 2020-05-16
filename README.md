@@ -1,7 +1,7 @@
 
   ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=plastic)
 
-# Ashley's README Generator
+# CLI README Generator
 
 ## Version:
 1.0.0
@@ -9,8 +9,8 @@
 
 
 
-## Description of Ashley's README Generator:
-Uniquely generates a README according to user's input, including a table of contents, badge, and contact info. 
+## Description of CLI Generator:
+Uses the CLI (command line interface) to uniquely generate a README according to user's input, including a table of contents, badge, and contact info. 
 
 
 
