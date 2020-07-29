@@ -32,7 +32,7 @@ Uses the CLI (command line interface) to uniquely generate a README according to
 ## Installation: 
 ### Use the following instruction to install: 
 
-```Run the command: node index.js```
+Run the command in your terminal: ```node index.js```
 
 
 
