@@ -3,9 +3,10 @@
 
 # CLI README Generator
 
+![mdGIF](GifDemo.gif)
+
 ## Version:
 1.0.0
-
 
 
 
