@@ -5,17 +5,6 @@
 
 ![mdGIF](GifDemo.gif)
 
-## Version:
-1.0.0
-
-
-
-## Description of CLI Generator:
-Uses the CLI (command line interface) to uniquely generate a README according to user's input, including a table of contents, badge, and contact info. 
-
-
-
-
 ## Table of Contents:
 * TITLE
 * VERSION
@@ -26,6 +15,16 @@ Uses the CLI (command line interface) to uniquely generate a README according to
 * CONTRIBUTING
 * TESTS
 * CONTACT
+
+
+## Version:
+1.0.0
+
+
+
+## Description of CLI Generator:
+Uses the CLI (command line interface) to uniquely generate a README according to user's input, including a table of contents, badge, and contact info. 
+
 
 
 
